@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js" defer></script>
+    <title>Landing PetWellness</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-content">
+                    <div class="logo">
+                        <a data-target="#Home"><img src="assets/logo.png" alt="PetWellness"></a>
+                    </div>
+                    <div class="menu-container">
+                        <ul class="menu">
+                            <li><a data-target="#about-us">Nosotros</a></li>
+                            <li><a data-target="#services">Servicios</a></li>
+                            <li><a data-target="#market">Tienda</a></li>
+                            <li><a data-target="#blogs">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="login">
+                        <button class="signup"><i class='bx bxs-user'></i>Crear Cuenta</button>
+                        <button class="signin"><i class='bx bxs-user'></i>Entrar</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/flanding.png">
+                </div>
+            </div>
+        </nav>    
+    </header>
+    <main>
+        <div data-content id="Home" class="active">
+            <div class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="left">
+                            <h1>Cuidalos, <span>Cambia sus vidas</span></h1>
+                            <p>Entra a la comunidad más grande de pet-lovers y disfruta de sus beneficios.</p>
+                            <a data-target="#Descubre"> 
+                                <span >Descubre más </span>
+                                <span class="material-symbols-outlined">
+                                    trending_flat
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-container">
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="assets/perro.jpg" alt="Perros">
+                        <span class="label">Perros</span>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/cobayo.png" alt="Cobayos">
+                        <span class="label">Cobayos</span>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/loro.png" alt="Aves">
+                        <span class="label">Aves</span>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gato.png" alt="Gatos">
+                        <span class="label">Gatos</span>
+                    </div>
+            </div>
+        
+            </div>
+            <div class="Services">
+                <h2 class="separator">
+                    Nuestros Servicios
+                </h2>
+            
+                <div class="wrapper">
+                    <i id="left" class="fa-solid fa-angle-left"></i>
+                    <ul class="carousel">
+                      <li class="card">
+                        <div class="img1"><img src="assets/cardiologia.png" alt="img" draggable="false"></div>
+                        <h2>Cardiología</h2>
+                        <span>Los exámenes cardiológicos periódicos se han vuelto una
+                            práctica necesaria permitiendo la identificación y tratamiento de enfermedades cardíacas.</span>
+                      </li>
+                      <li class="card">
+                        <div class="img1"><img src="assets/cirugiae.png" alt="img" draggable="false"></div>
+                        <h2>Cirugía Especializada</h2>
+                        <span>Nuestros profesionales se encuentran capacitados para 
+                            realizar todo tipo de cirugías especializadas, desde cirugías plásticas hasta neurocirugías.</span>
+                      </li>
+                      <li class="card">
+                        <div class="img1"><img src="assets/cirugiage.png" alt="img" draggable="false"></div>
+                        <h2>Cirugía General</h2>
+                        <span>Los exámenes cardiológicos periódicos se han vuelto una
+                            práctica necesaria permitiendo la identificación y tratamiento de enfermedades cardíacas.</span>
+                      </li>
+                      <li class="card">
+                        <div class="img1"><img src="assets/bascula.png" alt="img" draggable="false"></div>
+                        <h2>Endocrinología</h2>
+                        <span>La endocrinología veterinaria es el área de la medicina veterinaria que se dedica al 
+                            estudio de los desórdenes de las glándulas endocrinas.</span>
+                      </li>
+                      <li class="card">
+                        <div class="img1"><img src="assets/dermatologia.png" alt="img" draggable="false"></div>
+                        <h2>Dermatología</h2>
+                        <span>La dermatología veterinaria es la especialidad que se dedica al estudio de las 
+                            enfermedades de la piel, las uñas y el pelo.</span>
+                      </li>
+                      <li class="card">
+                        <div class="img1"><img src="assets/neurologia.png" alt="img" draggable="false"></div>
+                        <h2>Neurología</h2>
+                        <span>La neurología es la especialidad que se dedica al diagnóstico y tratamiento 
+                            de enfermedades que afectan el sistema nervioso.</span>
+                      </li>
+                      <li class="card">
+                        <div class="img1"><img src="assets/nutricion.png" alt="img" draggable="false"></div>
+                        <h2>Nutrición Clínica</h2>
+                        <span>Una dieta equilibrada ayuda a la mascota enferma a incorporar los nutrientes
+                            que necesita para reponerse.</span>
+                      </li>
+                      <li class="card">
+                        <div class="img1"><img src="assets/endoscopia.png" alt="img" draggable="false"></div>
+                        <h2>Endoscopía</h2>
+                        <span>La endoscopia es uno de los mejores y más utilizados métodos de evaluación 
+                            del tracto gastro intestinal.</span>
+                      </li>
+                    </ul>
+                    <i id="right" class="fa-solid fa-angle-right"></i>
+                  </div>
+        
+                <div class="view-more">
+                    <button data-target="#services">Ver más</button>
+                </div>
+            </div>
+            
+            <div class="blogs">
+                <h2 class="separator">
+                    Últimos Artículos
+                </h2>
+            
+                <div class="wrapper">
+                    <ul class="carousel">
+                      <li class="card">
+                        <div class="img"><img src="assets/blog1.png" alt="img" draggable="false"></div>
+                        <h2>¿Qué tener en cuenta si vas a llevar a tu perro a un restaurante pet-friendly?</h2>
+                        <span>¿Te ha pasado que quieres ir a comer a algún lugar fuera de tu casa,
+                             pero no quieres dejar a tu engreído solo? O simplemente, ¿te gustaría estar en......</span>
+                      </li>
+                      <li class="card">
+                        <div class="img"><img src="assets/blog2.png" alt="img" draggable="false"></div>
+                        <h2>Nuestros gatos en otoño, cómo les afecta y cómo cuidarlos</h2>
+                        <span>Llegó el otoño, y sin duda el cambio de estación genera un
+                             cambio en nuestro ánimo. Para nosotros puede ser una época feliz ...</span>
+                      </li>
+                      <li class="card">
+                        <div class="img"><img src="assets/blog3.png" alt="img" draggable="false"></div>
+                        <h2>De compras con Milaneso… en Sodimac!!</h2>
+                        <span>Cuántas veces has salido y has dejado a tu mascohijo en casa para
+                             hacer compras con su carita de ¡no te vayas!!! Felizmente ahora ya podemos llevarlos con nosotros ...</span>
+                      </li>
+                    </ul>
+                  </div>
+            
+                <div class="view-more">
+                    <button data-target="#blogs">Ir al Blog</button>
+                </div>
+            </div>
+        
+            <div class="work">
+                <div class="content-work">
+                    <h1>¿Eres veterinario y te gustaría ofrecer tus servicios en nuestra plataforma?</h1>
+                    <button>Trabaja con nosotros</button>
+                </div>
+                <div class="image-container">
+                    <img src="assets/work.png" alt="Veterinario con perro">
+                </div>
+            </div> 
+        </div>
+        <div data-content id="about-us">
+            <div class="About-us">
+                <h1>Nosotros</h1>
+                <p>En PetWellness, nos dedicamos por completo al bienestar de tus queridas
+                    mascotas y a fortalecer el vínculo que compartes con ellas. Nuestra meta
+                    es ofrecerte una experiencia integral y enriquecedora que simplifique el
+                    cuidado de tus fieles compañeros. Desde nuestros inicios, nos hemos
+                    comprometido a proporcionar información actualizada y confiable, así
+                    como servicios veterinarios de primera calidad. Además, hemos creado
+                    una comunidad en línea donde los amantes de las mascotas pueden reunirse,
+                    aprender y compartir sus experiencias. Creemos firmemente en la importancia
+                    de cuidar tanto la salud física como el bienestar emocional de nuestras
+                    mascotas. Por eso, en PetWellness nos esforzamos por ser tu aliado de
+                    confianza en este viaje de cuidado y amor hacia tus amigos peludos</p>
+            </div>
+            <div class="main-content">
+                <div class="vision-container">
+                    <div class="vision-content">
+                        <h2>Visión</h2>
+                        <p>Convertirnos en la principal plataforma en línea para el cuidado y el bienestar de las mascotas, proporcionando recursos innovadores y servicios de calidad que promuevan una vida larga y saludable para cada animal de compañía.</p>
+                    </div>
+                    <div class="mision-contacto-container">
+                        <div class="mision-content">
+                            <h2>Misión</h2>
+                            <p>Nuestra misión es brindar a los cuidadores de mascotas con información confiable, acceso conveniente a servicios veterinarios y una comunidad solidaria, para que puedan brindar el mejor cuidado posible a sus amigos peludos.</p>
+                        </div>
+                        <div class="boton-contacto">
+                            <a href="https://chat.whatsapp.com/H1j67M0gM8cHeg2nONyRoO">
+                                <button><span>Contáctanos</span> <img src="assets/whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon"></button>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="team-section">
+                    <h1>Nuestro equipo</h1>
+                    <div class="team-container">
+                        <div class="team-member">
+                            <img src="assets/Nicole.png" alt="Francesca Nicole Bances Torres">
+                            <h2>Francesca Nicole Bances Torres</h2>
+                            <p>Soy estudiante de quinto ciclo de la carrera de Ciencias de la Computación. Actualmente, tengo interés en temas como el diseño de bases de datos y Big Data. Además, cuento con experiencia en lenguajes de programación como C++, Python, SQL y MongoDB.</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="assets/Alissa.png" alt="Alissa Zúñiga Alvarez">
+                            <h2>Alissa Zúñiga Alvarez</h2>
+                            <p>Actualmente, soy estudiante del 5to ciclo de la carrera de ciencias de la computación, poseo conocimientos básicos en desarrollo web y lenguajes de programación como C++, C#, JavaScript, Python, HTML y CSS. Además, tengo un interés en el mundo de la veterinaria, siendo voluntario de diferentes organizaciones y albergues de animales en el Perú.</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="assets/Marsi.png" alt="Marsi Valeria Figueroa Larragán">
+                            <h2>Marsi Valeria Figueroa Larragán</h2>
+                            <p>Soy una estudiante de Ciencias de la Computación y entusiasta en Data Science y la elaboración de páginas web. Es por ello, que poseo conocimientos en diferentes lenguajes de programación como C++, Python, Go, HTML, JavaScript, Ruby y CSS. De igual manera, al trabajar con base de datos tengo un sólido conocimiento en SQL y MongoDB.</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="assets/Axel.png" alt="Axel Yamir Patrona Rojas">
+                            <h2>Axel Yamir Patrona Rojas</h2>
+                            <p>Como estudiante en una carrera de informática poseo conocimientos básicos en programación en lenguajes como C++ y Python, lo que me permite abordar desafíos de manera creativa y encontrar soluciones innovadoras. Asimismo, cuento con certificaciones en Scrum y habilidades en el uso de herramientas como Excel para negocios básicos, HTML, CSS y Ruby, que complementan mi perfil profesional y me permiten adaptarme a diversas tareas y responsabilidades.</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="assets/Diego.png" alt="Diego Eduardo Ballón Villar">
+                            <h2>Diego Eduardo Ballón Villar</h2>
+                            <p>Soy Ingeniero Civil, con más de 2 años de experiencia en la elaboración de valorizaciones, metrados y construcción vial. Como profesional comprometido con la mejora continua, he obtenido certificaciones en Lean Six Sigma - Yellow Belt y Agile Project Management. Estas metodologías me han permitido desarrollar habilidades adicionales en la identificación y resolución de problemas, así como en la gestión eficiente de proyectos en entornos dinámicos. Además, tengo conocimientos en programación usando lenguaje C++ y Python.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-content id="Descubre">
+            <div class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="left">
+                            <h1>Descuentos exclusivos<br><span> con tu suscripción</span></h1>
+                            <p>Obtén descuentos en veterinarias, tiendas y más.</p>
+                            <a data-target="#Suscripcion"> 
+                                <span >Miembro Plus </span>
+                                <span class="material-symbols-outlined">
+                                    monetization_on
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="beneficios">
+                <h2 class="separator">
+                    Beneficios
+                </h2>
+                <div class="container-descubre">
+                    <div class="card-descubre">
+                        <div class="discount blue">70%</div>
+                        <img src="assets/aristocat.png" alt="Aristocat">
+                        <div class="content">
+                            <div class="category">Veterinaria</div>
+                            <div class="title">Aristocat Clínica Veterinaria</div>
+                            <div class="location">Lima</div>
+                            <div class="link">Conoce más</div>
+                        </div>
+                    </div>
+                    <div class="card-descubre">
+                        <div class="discount blue">35%</div>
+                        <img src="assets/panchocaverovet.png" alt="Panchocavero">
+                        <div class="content">
+                            <div class="category">Veterinaria</div>
+                            <div class="title">Pancho Cavero Clínica Veterinaria</div>
+                            <div class="location">Lima</div>
+                            <div class="link">Conoce más</div>
+                        </div>
+                    </div>
+                    <div class="card-descubre">
+                        <div class="discount blue">30%</div>
+                        <img src="assets/superpet.png" alt="Superpet">
+                        <div class="content">
+                            <div class="category">Tienda</div>
+                            <div class="title">Super Pet</div>
+                            <div class="location">Lima</div>
+                            <div class="link">Conoce más</div>
+                        </div>
+                    </div>
+                    <div class="card-descubre">
+                        <div class="discount blue">30%</div>
+                        <img src="assets/Clrondon.png" alt="Clínica Rondon">
+                        <div class="content">
+                            <div class="category">Veterinaria</div>
+                            <div class="title">Clínica Veterinaria Rondon</div>
+                            <div class="location">Lima</div>
+                            <div class="link">Conoce más</div>
+                        </div>
+                    </div>
+                    <div class="card-descubre">
+                        <div class="discount blue">25%</div>
+                        <img src="assets/petcenter.png" alt="Pet Center">
+                        <div class="content">
+                            <div class="category">Veterinaria</div>
+                            <div class="title">Pet Center</div>
+                            <div class="location">Lima</div>
+                            <div class="link">Conoce más</div>
+                        </div>
+                    </div>
+                    <div class="card-descubre">
+                        <div class="discount green">S/64.90</div>
+                        <img src="assets/BarfRambala.png" alt="B.A.R.F food">
+                        <div class="content">
+                            <div class="category">Alimento</div>
+                            <div class="title">Rambala</div>
+                            <div class="location">4 bolsas de alimento BARF Rambala Pavo-Res (800 gr. por bolsa)</div>
+                            <div class="link">Conoce más</div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="video-plataforma">
+                <h2 class="separator">Aprende a usar nuestra plataforma</h2>
+                <div class="descubre-container">
+                    <div class="video-container">
+                        <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/XqyyjnNTPZk" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>  
+                </div>
+            </div>
+            <div class="galeria-plataforma">
+                <h2 class="separator">
+                    Galería de Fotos
+                </h2>
+                <div class="center-toggle">
+                    <div class="toggle-switch">
+                        <input type="radio" id="option1" name="toggle" checked>
+                        <label for="option1" class="toggle-option" onclick="showGallery('Dueños')">Dueños</label>
+                        <input type="radio" id="option2" name="toggle">
+                        <label for="option2" class="toggle-option" onclick="showGallery('Veterinarios')">Veterinario</label>
+                        <div class="toggle-bar"></div>
+                    </div>
+                </div>
+                <div class="carousel-container Dueños">
+                    <div class="carousel">
+                        <div class="carousel-item">
+                            <img src="assets/Galeriafotos/vistadueños.png" alt="Vista dueños incio">
+                            <span class="label">Inicio Dueños</span>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/Galeriafotos/vistadueñosreserva.png" alt="Vista dueños reserva">
+                            <span class="label">Reserva video consulta</span>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/Galeriafotos/vistadueñosHM.png" alt="Vista dueño hisorial medico">
+                            <span class="label">Historial médico mascota</span>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/Galeriafotos/vistadueñosvideoconsulta.png" alt="Vista dueño video consulta">
+                            <span class="label">Video consulta con doctor</span>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/Galeriafotos/vistadueñosrecordatorio.png" alt="Vista dueño agregar recordatorio">
+                            <span class="label">Agregar recordatorio</span>
+                        </div>
+                    </div>
+                    <button class="carousel-prev" onclick="prevSlide('Dueños')">&#10094;</button>
+                    <button class="carousel-next" onclick="nextSlide('Dueños')">&#10095;</button>
+                </div>
+                <div class="carousel-container Veterinarios" style="display: none;">
+                    <div class="carousel">
+                        <div class="carousel-item">
+                            <img src="assets/Galeriafotos/vistavet.png" alt="Vista veterinario incio">
+                            <span class="label">Inicio Veterinarios</span>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/Galeriafotos/vistavetinfopac.png" alt="Vista veterinario informacion">
+                            <span class="label">Información de paciente</span>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/Galeriafotos/vistavetHM.png" alt="Vista veterinario hisorial medico">
+                            <span class="label">Historial médico paciente</span>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/Galeriafotos/vistavetvideoconsulta.png" alt="Vista veterinario video consulta">
+                            <span class="label">Video consulta con paciente</span>
+                        </div>
+                    </div>
+                    <button class="carousel-prev" onclick="prevSlide('Veterinarios')">&#10094;</button>
+                    <button class="carousel-next" onclick="nextSlide('Veterinarios')">&#10095;</button>
+                </div>
+            </div>
+            <div class="video-plataforma">
+                <h2 class="separator">Aprende a usar nuestra plataforma</h2>
+                <div class="descubre-container">
+                    <div class="video-container">
+                        <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/XqyyjnNTPZk" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>  
+                </div>
+            </div>
+            <div class="testimonials">
+                <h2 class="separator">
+                    Testimonios
+                </h2>
+                <div class="testim">
+                    <img src="assets/testimonio1.png" alt="Usuario 1" class="testimonio1">
+                    <p class="author">De: Julio Flores</p>
+                    <p class="content">
+                        "Mi experiencia con Petwellness ha sido excelente desde el primer día. La interfaz de la plataforma es muy fácil de usar y las consultas se pueden programar con facilidad. Los veterinarios son muy profesionales y siempre muestran un gran interés en la salud de mi perro, Toby. Recomiendo Petwellness a todos los dueños de mascotas."
+                    </p>
+                </div>
+                <div class="testim">
+                    <img src="assets/testimonio2.png" alt="Usuario 2" class="testimonio1">
+                    <p class="author">De: Rosa Coral</p>
+                    <p class="content">
+                        "Tuve una emergencia con mi perico, Pepe, y no sabía a dónde acudir. Encontré Petwellness y en menos de una hora estaba hablando con un veterinario especializado en aves. La atención fue rápida y eficiente, y Pepe se recuperó sin problemas. Petwellness es un recurso imprescindible para cualquier amante de las mascotas."
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div data-content id="Suscripcion">
+            <div class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="left">
+                            <h1>Nuestros <br><span> Planes</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="planes">
+                <h2 class="separator">
+                    Planes
+                </h2>
+                <div class="plans-container">
+                    <div class="plan-card">
+                        <div class="badge">Más Vendido</div>
+                        <h2>PLAN SALUD</h2>
+                        <p class="price">S/ <span>220</span></p>
+                        <p class="description">Plan Preventivo Anual</p>
+                        <p class="validity">Válido por un año</p>
+                        <button class="btn">Comprar</button>
+                        <ul class="features">
+                            <li>CONSULTAS GENERALES Y DE EMERGENCIA ILIMITADAS*</li>
+                            <li>VIDEO CONSULTAS ILIMITADAS*</li>
+                            <li>DESCUENTOS EN SERVICIOS SELECCIONADOS</li>
+                        </ul>
+                    </div>
+                    <div class="plan-card">
+                        <h2>PLAN SALUD SENIOR</h2>
+                        <p class="price">S/ <span>250</span></p>
+                        <p class="description">Exclusivo para mascotas Gerontes</p>
+                        <p class="validity">Válido por un año</p>
+                        <button class="btn">Comprar</button>
+                        <ul class="features">
+                            <li>CONSULTAS GENERALES Y DE EMERGENCIA ILIMITADAS*</li>
+                            <li>VIDEO CONSULTAS ILIMITADAS*</li>
+                            <li>DESCUENTOS EN SERVICIOS SELECCIONADOS</li>
+                        </ul>
+                    </div>
+                    <div class="plan-card">
+                        <h2>PS PROTEC + 4 DESP.</h2>
+                        <p class="price">S/ <span>350</span></p>
+                        <p class="description">Plan Salud Protección + 4 Desparasitaciones al año</p>
+                        <p class="validity">Válido por un año</p>
+                        <button class="btn">Comprar</button>
+                        <ul class="features">
+                            <li>CONSULTAS GENERALES Y DE EMERGENCIA ILIMITADAS*</li>
+                            <li>VIDEO CONSULTAS ILIMITADAS*</li>
+                            <li>4 DESPARASITACIONES TOTALEMENTE CUBIERTAS*</li>
+                        </ul>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div data-content id="market">
+            <div class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="left">
+                            <h1><span>¡Ahorre! <br> Obtenga un 30% de descuento</span></h1>
+                            <p>En todos los productos</p>
+                            <a href="#"> 
+                                <span>Comprar Ahora  </span>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="assets/market/bebedero.png" alt="Bebedero De Vidrio Pequeñas Mascotas 177 Ml">
+                    <h3>Bebedero De Vidrio Pequeñas Mascotas 177 Ml</h3>
+                    <span class="tag">Artículo</span>
+                    <div class="price-container">
+                        <span>S/.19.90</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="assets/market/hamster.png" alt="Hamster Ball Pelota Para Roedores">
+                    <h3>Hamster Ball Pelota Para Roedores</h3>
+                    <span class="tag">Artículo</span>
+                    <div class="price-container">
+                        <span>S/.29.90</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="assets/market/felix.png" alt="Purina Felix - Paté de pescado y atún">
+                    <h3>Purina Felix - Paté de pescado y atún</h3>
+                    <span class="tag food">Comida</span>
+                    <div class="price-container">
+                        <span>S/.19.90</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="assets/market/arena.png" alt="TKPET - Arena aglomerante">
+                    <h3>TKPET - Arena aglomerante</h3>
+                    <span class="tag food">Comida</span>
+                    <div class="price-container">
+                        <span>S/.19.90</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="assets/market/canbo.png" alt="Canbo Cuidado De Esterilizados / Sterilized Care">
+                    <h3>Canbo Cuidado De Esterilizados / Sterilized Care</h3>
+                    <span class="tag food">Comida</span>
+                    <div class="price-container">
+                        <span>S/.34.10</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="assets/market/cama.png" alt="Cama Tasmania Celeste 55 Cm">
+                    <h3>Cama Tasmania Celeste 55 Cm</h3>
+                    <span class="tag">Artículo</span>
+                    <div class="price-container">
+                        <span class="old-price">S/.89.90</span>
+                        <span>S/.62.93</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="assets/market/metabolic.png" alt="Hills Pd Canine Metabolic Alimento Seco Perro">
+                    <h3>Hills Pd Canine Metabolic Alimento Seco Perro</h3>
+                    <span class="tag food">Comida</span>
+                    <div class="price-container">
+                        <span>S/.218.0</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="assets/market/cerdito.png" alt="Play&Bite Tc Mini Pig">
+                    <h3>Play&Bite Tc Mini Pig</h3>
+                    <span class="tag toy">Juguete</span>
+                    <div class="price-container">
+                        <span>S/.12.90</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div data-content id="services">
+            <div class="services-content">
+                <h1>Servicios</h1>
+                <div class="icons-servicios">
+                    <div class="icon_corazon">
+                        <img src="assets/icon_corazon.png" alt="Corazón">
+                    </div>
+                    <div class="icon_servicio">
+                        <img src="assets/icon_servicio.png" alt="Salud">
+                    </div>
+                    <div class="icon_veterinario">
+                        <img src="assets/icon_veterinario.png" alt="Doctor">
+                    </div>
+                </div>
+                <div class="services-button">
+                    <button class="services-button-cita">
+                        <a data-target="#Agenda-cita"> 
+                            <span>¡Agenda una cita!</span>
+                        </a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="main-services-content">
+                <div class="service_citas">
+                    <div class="content_left">
+                        <h2>Citas</h2>
+                        <p>Citas con profesionales locales. Nuestro objetivo es brindar tranquilidad y comodidad al cuidar de la salud de tus mascotas. Con solo unas clics, podrás reservar una consulta con un veterinario cercano, asegurando una atención óptima para tus fieles compañeros.</p>
+                    </div>
+                    <img src="assets/citas.png" alt="Citas">
+                </div>
+                <div class="service_grooming">
+                    <img src="assets/grooming.png" alt="Grooming">
+                    <div class="content_right">
+                        <h2>Grooming</h2>
+                        <p>Nuestros servicios de grooming están diseñados para mantener a tu mascota con un aspecto saludable y feliz. Desde baños relajantes hasta cortes de pelo profesionales, nuestro equipo de expertos se encarga de cada detalle para que tu perro luzca y se sienta en su mejor forma.</p>
+                    </div>
+                </div>
+                <div class="service_servicios">
+                    <div class="content_left">
+                        <h2>Servicios especializados de salud</h2>
+                        <p>Nuestros servicios especializados en salud ofrecen diagnóstico y tratamiento experto para una variedad de condiciones, desde trastornos hormonales hasta enfermedades crónicas. Trabajamos con veterinarios altamente capacitados en áreas como endocrinología y cardiología veterinaria para brindar el mejor cuidado posible a tu mascota.</p>
+                    </div>
+                    <img src="assets/servicios.png" alt="Servicios especializados de salud">
+                </div>
+                <div class="service_cirugia">
+                    <img src="assets/cirugia.png" alt="Cirugía">
+                    <div class="content_right">
+                        <h2>Cirugía</h2>
+                        <p>Nuestros servicios de cirugía veterinaria son realizados por profesionales altamente cualificados y con experiencia, que utilizan equipos modernos y técnicas avanzadas para garantizar la seguridad y comodidad de tu mascota durante todo el proceso. Ya sea una cirugía rutinaria o un procedimiento más complejo.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div data-content id="Agenda-cita">
+            <div class="hero">
+                <div class="container">
+                    <div class="form-container">
+                        <form class="appointment-form">
+                            <h2>Reservar Servicio</h2>
+                            <label for="pet-type">Tipo de mascota:</label>
+                            <input type="text" id="pet-type" name="pet-type" placeholder="Tipo mascota" required>
+        
+                            <label>Modalidad:</label>
+                            <div class="radio-group">
+                                <label><input type="radio" name="mode" value="virtual" required> Virtual</label>
+                                <label><input type="radio" name="mode" value="presencial" required> Presencial</label>
+                            </div>
+        
+                            <label for="appointment-type">Tipo de cita:</label>
+                            <input type="text" id="appointment-type" name="appointment-type" placeholder="Servicio" required>
+        
+                            <label for="date">Fecha:</label>
+                            <input type="date" id="date" name="date" required>
+        
+                            <label for="time">Hora:</label>
+                            <input type="time" id="time" name="time" required>
+        
+                            <label for="email">Correo:</label>
+                            <input type="email" id="email" name="email" placeholder="Correo" required>
+        
+                            <button type="submit">Registrar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-content id="blogs">
+            <div class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="left">
+                        <h1><span>Comunidad</span></h1>
+                        <p>Mascota feliz, feliz tú</p>
+                    </div>
+                </div>
+            </div>     
+            </div>   
+            <div class="blogs-posts">
+                <h2 class="separator" style="color:#000; margin-top: 300px;">
+                    Blogs destacados
+                </h2> 
+                <div class="posts">
+                    <a href="#">
+                    <img src="assets/blog4.png" alt="blog1" data-target="#blog1">
+                    <p>Diferencias entre perro de asistencia, de terapia y de apoyo emocional</p>
+                    <h4>Seguramente has escuchado muchos términos como perros de asistencia, perros de terapia, entre otros...</h4>
+                    </a>
+                </div>
+                <div class="posts">
+                    <a href="#">
+                    <img src="assets/blog2.png" alt="blog2">
+                    <p>Nuestros gatos en otoño, cómo les afecta y cómo cuidarlos</p>
+                    <h4>Llegó el otoño, y sin duda el cambio de estación genera un cambio en nuestro ánimo. Para nosotros puede ser una época feliz ...</h4>
+                    </a>
+                </div>
+                <div class="posts">
+                    <a href="#">
+                    <img src="assets/blog1.png" alt="blog3">
+                    <p>¿Qué tener en cuenta si vas a llevar a tu perro a un restaurante pet-friendly?</p>
+                    <h4>¿Te ha pasado que quieres ir a comer a algún lugar fuera de tu casa, pero no quieres dejar a tu engreído solo? O simplemente, ¿te gustaría estar en......</h4>
+                    </a>
+                </div>
+                <div class="posts">
+                    <a href="#">
+                    <img src="assets/blog3.png" alt="blog4">
+                    <p>De compras con Milaneso… en Sodimac!!</p>
+                    <h4>Cuántas veces has salido y has dejado a tu mascohijo en casa para hacer compras con su carita de ¡no te vayas!!! Felizmente ahora ya podemos llevarlos con nosotros ...</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div data-content id="questions">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="left">
+                        <h1><span>¿Tienes alguna duda?</span></h1>
+                        <p>Dudas comunes entre nuestros usuarios</p>
+                    </div>
+                </div>
+            </div>      
+            <div class="questions">
+                <h2 class="separator" style="color:#29A7BD; margin-top: 250px;">
+                    Preguntas frecuentes
+                </h2> 
+                <div class="contenedor-acordeon">
+                    <div class="acordeon">
+                        <input type="radio" name="acordeon" id="btn-acordeon1" class="btn-acordeon">
+                        <label for="btn-acordeon1">
+                            ¿Cómo puedo registrarme como veterinario en la plataforma PetWellness?
+                        </label>
+                        <div class="contenido-acordeon">
+                            <p>Para registrarte como veterinario en PetWellness, visita nuestra página de inicio y haz clic en "Crear cuenta". Completa el formulario de registro proporcionando tus datos personales, información profesional y credenciales. Una vez que tu solicitud sea revisada y aprobada, recibirás una confirmación por correo electrónico con los siguientes pasos para activar tu perfil.</p>
+                        </div>
+                    </div>
+                    <div class="acordeon">
+                     <input type="radio" name="acordeon" id="btn-acordeon2" class="btn-acordeon">
+                     <label for="btn-acordeon2">
+                         ¿Qué beneficios ofrece PetWellness a los veterinarios registrados?
+                     </label>
+                     <div class="contenido-acordeon">
+                         <p>Al registrarte en PetWellness, accedes a una amplia gama de beneficios, incluyendo una mayor visibilidad y alcance a potenciales clientes, herramientas para gestionar citas y recordatorios, acceso a nuestra base de datos de historial médico de mascotas, y oportunidades para participar en programas de educación continua y webinars exclusivos para profesionales.</p>
+                     </div>
+                 </div>
+                 <div class="acordeon">
+                     <input type="radio" name="acordeon" id="btn-acordeon3" class="btn-acordeon">
+                     <label for="btn-acordeon3">
+                         ¿Cómo funciona el servicio de telemedicina para rescatistas?
+                     </label>
+                     <div class="contenido-acordeon">
+                         <p>El servicio de telemedicina en PetWellness permite a los rescatistas conectar con veterinarios de manera virtual para consultas rápidas y diagnósticos preliminares. Para utilizar este servicio, simplemente selecciona la opción de telemedicina al agendar una cita, elige un veterinario disponible y realiza la consulta desde cualquier lugar. Este servicio es especialmente útil para evaluar la condición de animales recién rescatados y recibir orientación inmediata.</p>
+                     </div>
+                 </div>
+                 <div class="acordeon">
+                     <input type="radio" name="acordeon" id="btn-acordeon4" class="btn-acordeon">
+                     <label for="btn-acordeon4">
+                         ¿Cómo puedo agendar una cita veterinaria a través de la plataforma PetWellness?
+                     </label>
+                     <div class="contenido-acordeon">
+                         <p>Agendar una cita veterinaria en PetWellness es muy sencillo. Primero, inicia sesión en tu cuenta o crea una nueva si aún no lo has hecho. Luego, dirígete a la sección "Servicios" y selecciona "Agendar Cita". Elige el tipo de mascota, modalidad de la cita (virtual o presencial), tipo de servicio requerido, y selecciona la fecha y hora disponibles que mejor te convengan. Completa el formulario con tus datos de contacto y confirma la cita. Recibirás una notificación de confirmación con todos los detalles de tu cita programada.</p>
+                     </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+        <div data-content id="blog1">
+            <div class="hero-image">
+                <img src="assets/blog1-content.png" style="width: 690px;">
+            </div>
+            <div class="description">
+                <a href="#">
+                    <img src="assets/return.png" alt="retorno" data-target="#blogs">
+                </a>
+                <h4>Publicado por: Dr. José Martinez</h4>
+                <h4>Publicado el 12/02/2024</h4>
+            </div>
+            <div class="publication">
+                <h1 class="description-tittle">
+                    Diferencias entre perro de asistencia, de terapia y de apoyo emocional
+                </h1>
+                <p class="description-content" style="text-align: justify">
+                    En el fascinante universo canino, existen términos que van más allá de la simple compañía y nos 
+                    adentran en un mundo de apoyo, consuelo y servicio. Los perros de asistencia y los perros de terapia 
+                    son dos ejemplos emblemáticos de cómo nuestros amigos de cuatro patas pueden desempeñar roles significativos en la vida de las personas.
+                    Los perros de asistencia, también conocidos como perros de servicio, son verdaderos héroes cotidianos. Estos compañeros peludos están especialmente entrenados para brindar ayuda práctica y emocional a personas con discapacidades físicas, sensoriales, cognitivas o de salud mental. Desde guiar a personas ciegas con seguridad a través de entornos desconocidos hasta alertar a individuos con diabetes sobre cambios en sus niveles de azúcar en sangre, su dedicación y habilidades son impresionantes. Para aquellos que enfrentan barreras en su vida diaria, estos perros no solo ofrecen asistencia física, sino también un profundo sentido de independencia y conexión emocional.
+                    Por otro lado, los perros de terapia se destacan por su capacidad para traer consuelo, alegría y apoyo emocional en momentos de necesidad. Ya sea en hospitales, hogares de ancianos, escuelas o centros de rehabilitación, estos caninos trabajan incansablemente para aliviar el estrés, fomentar la interacción social y levantar el ánimo de quienes los rodean. Su presencia calmante y su afecto incondicional tienen un impacto transformador en la vida de pacientes, estudiantes y personas en situaciones difíciles. A través de sesiones de lectura, visitas a pacientes hospitalizados o simplemente abrazos reconfortantes, estos perros demuestran una vez más el poder del vínculo humano-animal.
+                    En resumen, los perros de asistencia y de terapia desempeñan roles únicos pero igualmente importantes en nuestra sociedad. Ya sea proporcionando ayuda práctica a aquellos que lo necesitan o brindando consuelo en tiempos de adversidad, su presencia es un recordatorio constante del impacto positivo que los animales pueden tener en nuestras vidas. Como compañeros leales y aliados en el camino, los perros continúan inspirándonos, enseñándonos y enriqueciendo nuestras vidas de maneras inimaginables.
+                </p>
+                <div class="comments">
+                    <div class="description-tittle">
+                        <h3 style="color:#29A7BD; margin-top: 140px">
+                            Comentarios
+                        </h3>
+                    <p><a>Publicar</a></p>
+                    <div class="respuesta">
+                        <h2>Usuario1223</h2><h3>¡Me encanta cómo está escrito! Es fácil de entender desde el principio y no me pierdo en ningún momento.</h3>
+                    </div>
+                    <div class="respuesta">
+                        <h2>Usuario02932</h2><h3>Me hizo sentirme emocionado y agradecido por el trabajo de estos perros. Es increíble cómo pueden marcar la diferencia en la vida de las personas.</h3>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div data-content id="Contacto" class="contact-form-container">
+        <div class="contact-form">
+            <form>
+                <h2>Contáctanos</h2>
+                <label for="consulta">Ingrese su nombre</label>
+                <textarea id="consulta" name="nombre" required></textarea>
+                <label for="email">Ingrese su email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="consulta">Ingrese su consulta</label>
+                <textarea id="consulta" name="consulta" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="container-footer">
+            <div class="row">
+                <div class="col-social">
+                    <img src="assets/logo.png" alt="" class="logo">
+                    <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+               
+                <div class="col">
+                    <h3 data-target="#Contacto">Contactanos</h3>
+                    <div class="links">
+                    <a href="#"><i class="fa-regular fa-envelope"></i> info@petwellness.pe</a>
+                    <a data-target="#Descubre">Galeria de imagenes</a>
+                    <a href="#">Inscripción</a>
+                    <a data-target="#questions">Preguntas Frecuentes</a>
+                    <a href="#">Términos y condiciones</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Locales y Contacto</h3>
+                    <div class="contact-details">
+                    <p>Av. Brasil 2354, Jesús María <br> 994 632 446 <br> 01 458 7459 | 01 657 4586</p>
+                    </div>
+                    <div class="contact-details">
+                    <p>Av. Militar 1235, Lince <br> 954 112 568<br> Domingos - 9 a.m. - 6 p.m. <br> 01 517 5241</p>
+                    </div>
+                    <div class="contact-details">
+                    <p>Av. San Luis 2645, San Borja <br> 941 145 243<br> Domingos - 8 a.m. - 8 p.m. <br>01 635 2774</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Horarios</h3>
+                    <div class="contact-details">
+                        <p>Jesús María <br> Atención: Lunes a Domingo - 24 Horas <br> VETPlanet SAC. 20563265443</p>
+                    </div>
+                    <div class="contact-details">
+                    <p>Lince <br> Atención: Lunes a Sabado - 8 a.m. - 8 p.m.<br> Domingos - 9 a.m. - 6 p.m. <br> JMS VETERINARIAS S.A.C. 20153256984</p>
+                    </div>
+                    <div class="contact-details">
+                    <p>San Borja <br> Atención: Lunes a Sabado - 8 a.m. - 10 p.m.<br> Domingos - 8 a.m. - 8 p.m. <br>Jose Martinez Hurrutia 1012457896</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form">
+                <p>© 2024 PetWellness | Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button id="backToTop" class="back-to-top" onclick="scrollToTop()">
+        <i class='bx bx-up-arrow-alt'></i>
+    </button>  
+
+    <div class="whatsapp-container">
+        <a href="https://wa.me/1234567890" class="whatsapp-button">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <div class="whatsapp-text">
+            <p>¿Necesitas ayuda?<br>¡Escríbenos!</p>
+        </div>
+    </div>    
+</body>
+</html>
