@@ -1171,6 +1171,10 @@ footer{
 }
 
 /*Testimonios*/
+.testimonials {
+    margin-bottom: 80px;
+}
+
 .testimonials .content {
     margin-left: 280px;
     text-align: justify;
@@ -1740,4 +1744,8 @@ input[type="radio"]#option2:checked ~ .toggle-bar {
     max-width: 800px; 
     height: 450px;
     border-radius: 10px;
+}
+
+.video-plataforma {
+    margin-bottom: 40px;
 }
